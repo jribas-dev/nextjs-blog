@@ -31,6 +31,12 @@
     text-align: center;
   }
 
+  .PersonalInfo {
+    font-size: 1.0rem;
+    line-height: 1.0;
+    text-align: center;
+  }
+
   .borderCircle {
     border-radius: 9999px;
   }
