@@ -4,7 +4,7 @@ import styles from '../styles/layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'João Ribas @JRibas-Dev';
+const name = 'João Ribas';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
@@ -37,6 +37,7 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h4 className={utilStyles.LinkBio}><a href={'https://github.com/JRibas-Dev/'} target='_blank'>@JRibas-Dev</a></h4>
           </>
         ) : (
           <>
